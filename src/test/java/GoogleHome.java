@@ -1,7 +1,6 @@
 import org.testng.annotations.Test;
 
-public class GoogleHomeVisualGridRun extends TestBase
-{
+public class GoogleHome extends TestBase {
     @Test
     public void validateGoogleHome()
     {
