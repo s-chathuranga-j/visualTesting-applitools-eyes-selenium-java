@@ -19,7 +19,7 @@ public class TestBase
     protected Configuration suiteConfig;
     protected Eyes eyes;
     protected static BatchInfo batch;
-    protected String apiKey = "set your applitools eyes apiKey here";
+    protected String apiKey = "2uAu101da90Hhd6idpC99bBv7MnXnnRhh0lRX101U5FsQD48110";
     RectangleSize viewPortSize = new RectangleSize(1920, 1080);
     private int concurrentSessions = 10;
     protected int viewPortWidth = 1920;
