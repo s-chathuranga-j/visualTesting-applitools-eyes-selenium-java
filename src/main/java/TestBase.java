@@ -92,4 +92,9 @@ public class TestBase
     {
         eyes.check(tag, Target.window().strict());
     }
+
+    public void checkIgnoreAndLayoutRegion(String tag, String ignoreRegionLocator)
+    {
+        eyes.check(tag, Target.window().fully().ignore(By.cssSelector(ignoreRegionLocator)).layout());
+    }
 }

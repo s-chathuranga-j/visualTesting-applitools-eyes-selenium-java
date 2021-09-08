@@ -8,6 +8,8 @@ public class GoogleHome extends TestBase {
         openEyes("validateGoogleHome");
         checkLayout("Google Home");
         checkStrict("Google Home Strict Layout");
+        checkStrictRegionAndLayoutRegion("Google Home Layout & Strict modes combined", ".gb_Ca.gbii");
+        checkStrictRegionAndLayoutRegion("Google Home Layout & Ignore modes combined", ".gb_Ca.gbii");
         closeEyes();
     }
 }
