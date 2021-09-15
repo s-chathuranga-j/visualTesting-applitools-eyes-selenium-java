@@ -1,4 +1,4 @@
-# Visual Testing with Applitools java using Selenium (Java)
+# Visual Testing with Applitools Eyes using Selenium (Java)
 This is a Java Mevan project with the dependencies:
   - Selenium
   - TestNG
