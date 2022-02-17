@@ -12,7 +12,8 @@ This is a Java Mevan project with the dependencies:
 4. Create a variable named as "runnerType"
 5. If you want to run on classic runner, set the value of the above parameter to "classic"
 6. If you want to run on ultra-fast grid runner, set the value of the above parameter to "visual grid"
-7. Now run the test
+7. Locate the TestBase class (under src/main/java folder) & replace the API KEY with your API KEY
+8. Now run the test
 
 Check how to run video here: https://youtu.be/uqTl7U70_l0
 
